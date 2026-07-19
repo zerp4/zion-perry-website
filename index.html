@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zion Perry — the beauty of RNA and proteins</title>
+<meta name="description" content="Zion Perry, PhD candidate in Molecular Biophysics &amp; Biochemistry at Yale. Research on noncoding RNA structure, computational biology, and science education.">
+<link rel="icon" href="assets/images/Z_logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/main.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <img src="assets/images/Z_logo.png" alt="Zion Perry logo" class="brand-logo">
+      <span>Zion Perry<small>the beauty of RNA and proteins</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation"><span></span></button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="blob blob-anim" style="width:340px;height:340px;top:-80px;left:-100px;background:var(--lilac);"></div>
+  <div class="blob blob-anim" style="width:280px;height:280px;top:120px;right:-80px;background:var(--rose);animation-delay:-4s;"></div>
+  <div class="blob blob-anim" style="width:220px;height:220px;bottom:-60px;left:44%;background:var(--sky);animation-delay:-8s;"></div>
+
+  <div class="container" style="position:relative; z-index:2;">
+    <div class="reveal is-visible" style="max-width:680px;">
+      <h1>Uncovering the beauty of <em>RNA</em> <span class="amp">&amp;</span> <em>protein structures</em></h1>
+      <p class="lede">I'm a computational and experimental biologist exploring how RNA and proteins fold and function. Through research and teaching, I seek to uncover the beauty and complexity of the molecular world.</p>
+      <div class="btn-row">
+        <a href="#research" class="btn btn-soft">Explore my research</a>
+        <a href="#teaching" class="btn btn-soft">Read about my teaching</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FEATURED RESEARCH ================= -->
+<section class="section section-alt" id="research">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow" style="justify-content:center;">Research</p>
+      <h2>Explore recent projects</h2>
+      <p>Structural biology of noncoding RNAs - through experimental, computational, and comparative genomics approaches.</p>
+    </div>
+
+    <div class="card-grid reveal">
+      <div class="card">
+        <div class="icon lilac">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3c0 6 10 6 10 12"/><path d="M17 21c0-6-10-6-10-12"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="18" x2="16" y2="18"/><line x1="9.5" y1="10.5" x2="14.5" y2="10.5"/><line x1="9.5" y1="13.5" x2="14.5" y2="13.5"/></svg>
+        </div>
+        <h3>Architecture of a lncRNA</h3>
+        <p>Mapping the secondary structure, protein binding, and modification landscape of HOTAIR in breast cancer cells.</p>
+        <div class="tags"><span class="tag">SHAPE-MaP</span><span class="tag">MRT-ModSeq</span><span class="tag">Next Generation Sequencing</span><span class="tag">Bioinformatics</span><span class="tag">Jupyter</span></div>
+        <a href="research.html#hotair" class="card-link">Read more →</a>
+      </div>
+
+      <div class="card">
+        <div class="icon sky">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.4"/><circle cx="18" cy="7" r="2.4"/><circle cx="9" cy="17" r="2.4"/><circle cx="18" cy="17" r="2.4"/><line x1="8" y1="7.3" x2="16" y2="7.6"/><line x1="7.5" y1="8.2" x2="9" y2="14.8"/><line x1="18" y1="9.4" x2="18" y2="14.6"/><line x1="11" y1="17" x2="15.6" y2="17"/></svg>
+        </div>
+        <h3>Fast RNA Reconstruction</h3>
+        <p>Software to rebuild full-atomic RNA structures from coarse-grained models - 353&times; faster and 54% more accurate than prior methods.</p>
+        <div class="tags"><span class="tag">RNA 3D Structure Prediction</span><span class="tag">C++</span><span class="tag">High Performance Computing</span><span class="tag">Git</span></div>
+        <a href="research.html#arena" class="card-link">Read more →</a>
+      </div>
+
+      <div class="card">
+        <div class="icon sage">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6"/><path d="M10 3v6.5L4.8 18a1.6 1.6 0 0 0 1.4 2.4h11.6a1.6 1.6 0 0 0 1.4-2.4L14 9.5V3"/><path d="M7.5 15h9"/></svg>
+        </div>
+        <h3>Primate RNA Conservation</h3>
+        <p>Bioinformatics pipeline to discover and align RNA genes across 190 unannotated primate genomes for comparative sequence and structure analysis.</p>
+        <div class="tags"><span class="tag">Bioinformatics</span><span class="tag">Python</span><span class="tag">Bash</span><span class="tag">High Performance Computing</span></div>
+        <a href="research.html#primates" class="card-link">Read more →</a>
+      </div>
+    </div>
+
+    <div class="reveal" style="text-align:center; margin-top:36px;">
+      <a href="research.html" class="btn btn-soft">Visit the Research page</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TEACHING PREVIEW ================= -->
+<section class="section" id="teaching">
+  <div class="container">
+    <div class="reveal" style="max-width:640px; margin:0 auto; text-align:center;">
+      <p class="eyebrow" style="justify-content:center;">Teaching &amp; Mentorship</p>
+      <h2>Communicating science with <em>curiosity</em> <span class="amp">&amp;</span> <em>beauty</em></h2>
+      <p>I enjoy teaching both foundational biology principles and sharing advanced research in an accessible way. I've mentored students in the lab, led college molecular biology sections, and designed science curricula for high school students. I care about communicating challenging ideas in a way that makes the molecular world engaging for all learners.</p>
+      <a href="teaching.html" class="btn btn-soft">Visit the Teaching page</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DREAMS PANEL ================= -->
+<section class="section section-alt">
+  <div class="container reveal">
+    <div class="dream-panel">
+      <blockquote>"Among all the marvels that I have discovered in nature, these are the most marvelous of all."</blockquote>
+      <p style="font-family:var(--font-mono); font-size:0.8rem; color:var(--ink-soft); margin-top:16px; margin-bottom:0;">— Antonie van Leeuwenhoek</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="brand" style="margin-bottom:10px;">
+          <img src="assets/images/Z_logo.png" alt="Zion Perry logo" class="brand-logo">
+          <span>Zion Perry</span>
+        </a>
+        <p style="max-width:32ch;">The Beauty of RNA and Proteins.</p>
+      </div>
+      <div class="footer-links">
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <p class="footer-note">© 2026 Zion Perry. Exploring the molecular world with curiosity.</p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research — Zion Perry</title>
+<meta name="description" content="Research projects by Zion Perry on noncoding RNA structure, computational structural biology, and protein design.">
+<link rel="icon" href="assets/images/Z_logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/main.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <img src="assets/images/Z_logo.png" alt="Zion Perry logo" class="brand-logo">
+      <span>Zion Perry<small>the beauty of RNA and proteins</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation"><span></span></button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<section class="page-hero">
+  <div class="blob blob-anim" style="width:260px;height:260px;top:-60px;right:-60px;background:var(--sky);"></div>
+  <div class="container reveal is-visible">
+    <p class="eyebrow">Research</p>
+    <h1 style="max-width: 900px;">Decoding <em>structural principles</em> of RNA &amp; proteins</h1>
+    <p class="lede">My research combines computational and experimental approaches to understand how macromolecules fold, function, and evolve. During my graduate work, I investigated noncoding RNA structure across multiple scales, from primary sequence and secondary structure to three-dimensional architecture. Moving forward, I am interested in understanding how RNA and proteins encode biological information through their structures. Explore some of my research projects and current work below.</p>
+    <div class="interests-panel">
+      <p class="eyebrow">Core Research Interests</p>
+      <div class="interest-chain">
+        <div class="interest-node">
+          <span class="node-dot" style="background:var(--lilac-deep);"></span>
+          <span class="node-label">Macromolecular Structure &amp; Folding</span>
+        </div>
+        <div class="interest-node">
+          <span class="node-dot" style="background:var(--sky-deep);"></span>
+          <span class="node-label">Computational Biology &amp; Bioinformatics</span>
+        </div>
+        <div class="interest-node">
+          <span class="node-dot" style="background:var(--rose-deep);"></span>
+          <span class="node-label">Molecular Biophysics &amp; Biochemistry</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="section" id="projects">
+  <div class="container">
+
+    <div class="section-head left reveal">
+      <h2>Research Projects</h2>
+    </div>
+
+    <div class="notebook wide reveal" id="hotair">
+      <div class="project-image">
+        <img src="assets/images/HOTAIR_arcplot.png" alt="HOTAIR arcplot">
+      </div>
+      <div class="notebook-body">
+        <div class="notebook-head">
+          <div class="badge icon lilac">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3c0 6 10 6 10 12"/><path d="M17 21c0-6-10-6-10-12"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="18" x2="16" y2="18"/><line x1="9.5" y1="10.5" x2="14.5" y2="10.5"/><line x1="9.5" y1="13.5" x2="14.5" y2="13.5"/></svg>
+          </div>
+          <div>
+            <div class="meta">Graduate Research · Pyle Lab, Yale</div>
+            <h3>Architecture of the lncRNA HOTAIR in Breast Cancer</h3>
+          </div>
+        </div>
+        <p>HOTAIR is a long noncoding RNA (lncRNA) implicated in breast cancer progression, but its structural and functional mechanisms are poorly understood. Furthermore, there have been few structures of lncRNAs mapped in cells.</p>
+        <ul class="points">
+          <li>Experimental structure probing pipeline was adapted to breast cancer cells</li>
+          <li>HOTAIR exhibits a 4-domain architecture in cells and <em>in vitro</em></li>
+          <li>Local structures correspond with protein binding and RNA modification sites</li>
+          <li>Identified a conserved structural module from Domain 3 across 174 primates</li>
+        </ul>
+        <div class="tags"><span class="tag">SHAPE-MaP</span><span class="tag">MRT-ModSeq</span><span class="tag">Next Generation Sequencing</span><span class="tag">Bioinformatics</span><span class="tag">Jupyter</span><span class="tag">Mammalian Tissue Culture</span><span class="tag">RT-qPCR</span><span class="tag">RNA Transcription and Purification</span></div>
+        <br>
+        <a class="card-link" href="assets/pdfs/HOTAIR_BioRxiv_2026.pdf" target="_blank" rel="noopener">Read the preprint (PDF) →</a>
+      </div>
+    </div>
+
+    <div class="notebook wide reveal" id="primates">
+      <div class="project-image">
+        <img src="assets/images/HOTAIR_MSA.png" alt="Primate heatmap">
+      </div>
+      <div class="notebook-body">
+        <div class="notebook-head">
+          <div class="badge icon sage">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6"/><path d="M10 3v6.5L4.8 18a1.6 1.6 0 0 0 1.4 2.4h11.6a1.6 1.6 0 0 0 1.4-2.4L14 9.5V3"/><path d="M7.5 15h9"/></svg>
+          </div>
+          <div>
+            <div class="meta">Graduate Research · Pyle Lab, Yale</div>
+            <h3>Noncoding RNA Discovery Across Primate Genomes</h3>
+          </div>
+        </div>
+        <p>LncRNAs are often thought to exhibit poor conservation. However, by focusing our analyses on narrow evolutionary timescales (within primates), we can measure their sequence divergence and start to capture high levels of sequence and structural conservation.</p>
+        <ul class="points">
+          <li>Developed bioinformatics pipeline for discovery and alignment of RNA genes in 190 unannotated primate genomes</li>
+          <li>Enabled comparative sequence and structural analyses of noncoding RNA targets across species</li>
+          <li>As proof-of-concept, measured sequence conservation of UTRs and sequence/structural conservation of the lncRNA SChLAP1</li>
+        </ul>
+        <div class="tags"><span class="tag">Bioinformatics Tools</span><span class="tag">Python</span><span class="tag">Bash</span><span class="tag">High Performance Computing</span></div>
+        <br>
+        <a class="card-link" href="assets/pdfs/Primate_BioRxiv_2026.pdf" target="_blank" rel="noopener">Read the preprint (PDF) →</a>
+      </div>
+    </div>
+
+    <div class="notebook reveal" id="arena">
+      <div class="project-image">
+        <img src="assets/images/Arena_structure.png" alt="Arena structure">
+      </div>
+      <div class="notebook-body">
+        <div class="notebook-head">
+          <div class="badge icon sky">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.4"/><circle cx="18" cy="7" r="2.4"/><circle cx="9" cy="17" r="2.4"/><circle cx="18" cy="17" r="2.4"/><line x1="8" y1="7.3" x2="16" y2="7.6"/><line x1="7.5" y1="8.2" x2="9" y2="14.8"/><line x1="18" y1="9.4" x2="18" y2="14.6"/><line x1="11" y1="17" x2="15.6" y2="17"/></svg>
+          </div>
+          <div>
+            <div class="meta">Graduate Research · Pyle Lab, Yale</div>
+            <h3>Arena: Rapid, Accurate Full-Atomic RNA Reconstruction</h3>
+          </div>
+        </div>
+        <p>Available RNA structures often contain missing atoms. This method reconstructs full-atomic structures from as few as 1 atom per nucleotide.</p>
+        <ul class="points">
+          <li>Built C++ software for RNA structure prediction and refinement from coarse-grained models</li>
+          <li>Software was benchmarked on a diverse set of 361 ncRNAs including tRNAs, rRNAs, snRNAs, and riboswitches</li>
+          <li>353&times; faster runtime and 54% higher accuracy than state-of-the-art programs</li>
+        </ul>
+        <div class="tags"><span class="tag">RNA 3D Structure Prediction</span><span class="tag">C++</span><span class="tag">Git</span><span class="tag">High Performance Computing</span><span class="tag">PyMOL</span></div>
+        <br>
+        <a class="card-link" href="assets/pdfs/Arena_JMB_2023.pdf" target="_blank" rel="noopener">Read the paper (PDF) →</a>
+      </div>
+    </div>
+
+    <div class="notebook reverse reveal" id="protein-design">
+      <div class="project-image">
+        <img src="assets/images/Allostery_waters.png" alt="LacI waters">
+      </div>
+      <div class="notebook-body">
+        <div class="notebook-head">
+          <div class="badge icon rose">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19c0-3 6-3 6-6s-6-3-6-6 6-3 6-6"/><path d="M13 19c0-3 6-3 6-6s-6-3-6-6 6-3 6-6"/></svg>
+          </div>
+          <div>
+            <div class="meta">Research Intern · Kortemme Lab, UCSF</div>
+            <h3>Solvation-Aware Protein Binding Site Design</h3>
+          </div>
+        </div>
+        <p>Before RNA, I worked on proteins. I modeled water molecules in the binding site design of the allosteric protein LacI.</p>
+        <ul class="points">
+          <li>Developed a protein binding-site design pipeline in Rosetta that incorporates solvation, using Python, Bash, and HPC workflows</li>
+          <li>Created PyMOL visualization method for quantifying hydrogen-bonding propensity of residues to water</li>
+          <li>Experimentally tested top computational designs with an <em>in cellulo</em> reporter assay</li>
+        </ul>
+        <div class="tags"><span class="tag">Rosetta/PyRosetta</span><span class="tag">PyMOL</span><span class="tag">High Performance Computing</span><span class="tag">GFP Reporter Assay</span></div>
+        <br>
+        <a class="card-link" href="assets/pdfs/Allostery_NatCommun_2023.pdf" target="_blank" rel="noopener">Read the paper (PDF) →</a>
+      </div>
+    </div>
+
+    <div class="reveal" style="border-top:1px solid var(--line-soft); padding-top:30px; margin-top:10px;">
+      <p class="eyebrow">Earlier Work</p>
+      <h3>Protease–Substrate Recognition in Bacteria</h3>
+      <p style="max-width:70ch;">As an undergraduate in the Baker Lab at MIT (2018–2019), I studied the mechanism of protease–substrate recognition in <em>Bradyrhizobium japonicum</em>. I designed and purified AAA+ ClpAP protease and substrate constructs, using degradation-curve analysis to quantify kinetic differences.</p>
+      <div class="tags"><span class="tag">Protein Purification</span><span class="tag">GFP Degradation Assay</span><span class="tag">Kinetic Analysis</span><span class="tag">MATLAB</span></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="section section-alt">
+  <div class="container reveal">
+    <div class="section-head left">
+      <h2>Tools &amp; techniques</h2>
+    </div>
+    <div class="skills-grid">
+      <div>
+        <h4>Programming Languages</h4>
+        <div class="tags">
+          <span class="tag">Python</span><span class="tag">C++</span><span class="tag">R</span><span class="tag">MATLAB</span><span class="tag">Bash</span><span class="tag">Mathematica</span>
+        </div>
+      </div>
+      <div>
+        <h4>Software &amp; Tools</h4>
+        <div class="tags">
+          <span class="tag">High Performance Computing</span><span class="tag">Git</span><span class="tag">Rosetta/PyRosetta</span><span class="tag">PyMOL</span><span class="tag">Jupyter Notebook</span><span class="tag">Bioinformatics Tools</span>
+        </div>
+      </div>
+      <div>
+        <h4>Experimental</h4>
+        <div class="tags">
+          <span class="tag">Next Generation Sequencing</span><span class="tag">SHAPE-MaP</span><span class="tag">DMS-MaP</span><span class="tag">MRT-ModSeq</span><span class="tag">RT-qPCR</span><span class="tag">In Vitro Transcription</span><span class="tag">Protein &amp; RNA Purification</span><span class="tag">Northern Blot</span>
+        </div>
+      </div>
+      <div>
+        <h4>Cell &amp; Tissue Methods</h4>
+        <div class="tags">
+          <span class="tag">Bacterial &amp; Mammalian Tissue Culture</span><span class="tag">Spheroid Culture</span><span class="tag">Molecular Cloning</span><span class="tag">Light &amp; Fluorescence Microscopy</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="brand" style="margin-bottom:10px;">
+          <img src="assets/images/Z_logo.png" alt="Zion Perry logo" class="brand-logo">
+          <span>Zion Perry</span>
+        </a>
+        <p style="max-width:32ch;">The Beauty of RNA and Proteins.</p>
+      </div>
+      <div class="footer-links">
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <p class="footer-note">© 2026 Zion Perry. Exploring the molecular world with curiosity.</p>
+  </div>
+</footer>
+
+</body>
+</html>
