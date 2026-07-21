@@ -781,10 +781,12 @@ section{ position: relative; }
   border-radius: var(--radius-lg);
   padding: 44px;
 }
-.contact-methods{ display:flex; flex-direction:column; align-items: stretch; width: fit-content; max-width: 100%; gap: 14px; margin: 26px auto 0; }
+.contact-inner{ width: fit-content; max-width: 100%; margin: 0 auto; text-align: left; }
+.contact-methods{ display:flex; flex-direction:column; align-items: stretch; gap: 14px; margin-top: 26px; }
 .contact-method{
   display:flex; align-items:center; gap: 16px;
   max-width: 100%;
+  text-align: left;
   padding: 16px 18px;
   border-radius: var(--radius-md);
   background: var(--paper-alt);
